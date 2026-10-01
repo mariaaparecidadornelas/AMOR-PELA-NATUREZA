@@ -12,21 +12,37 @@
 
 <body>
 
+    <!-- CABEÇALHO -->
     <header>
+
         <nav class="navbar">
 
             <h1>🌿 Amor pela Natureza</h1>
 
             <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li>
+                    <a href="index.html">Início</a>
+                </li>
+
+                <li>
+                    <a href="sobre.html">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="servicos.html">Serviços</a>
+                </li>
+
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
             </ul>
 
         </nav>
+
     </header>
 
+
+    <!-- CONTEÚDO PRINCIPAL -->
     <main>
 
         <section class="pagina contato">
@@ -38,38 +54,50 @@
                 com a preservação da natureza? Envie uma mensagem!
             </p>
 
-            <form action="#" method="post">
 
-                <label for="nome">Nome</label>
+            <!-- FORMULÁRIO -->
+            <form id="formContato">
+
+                <!-- NOME -->
+                <label for="nome">
+                    Nome
+                </label>
 
                 <input
                     type="text"
                     id="nome"
                     name="nome"
                     placeholder="Digite seu nome"
-                    required
                 >
 
-                <label for="email">E-mail</label>
+
+                <!-- E-MAIL -->
+                <label for="email">
+                    E-mail
+                </label>
 
                 <input
                     type="email"
                     id="email"
                     name="email"
                     placeholder="Digite seu e-mail"
-                    required
                 >
 
-                <label for="mensagem">Mensagem</label>
+
+                <!-- MENSAGEM -->
+                <label for="mensagem">
+                    Mensagem
+                </label>
 
                 <textarea
                     id="mensagem"
                     name="mensagem"
                     rows="6"
                     placeholder="Digite sua mensagem"
-                    required
                 ></textarea>
 
+
+                <!-- BOTÃO -->
                 <button type="submit">
                     Enviar mensagem
                 </button>
@@ -80,12 +108,21 @@
 
     </main>
 
+
+    <!-- RODAPÉ -->
     <footer>
+
         <p>
-            &copy; 2026 Amor pela Natureza - Todos os direitos reservados.
+            &copy; 2026 Amor pela Natureza -
+            Todos os direitos reservados.
         </p>
+
     </footer>
 
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
-```
